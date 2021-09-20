@@ -8,10 +8,17 @@ class BuyerSearch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          leading: Icon(Icons.arrow_back),
-          backgroundColor: kAppBarColor,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(
+          Icons.add,
+          size: 40,
         ),
+      ),
+      appBar: AppBar(
+        leading: Icon(Icons.arrow_back),
+        backgroundColor: kAppBarColor,
+      ),
       body: BuyerSearchBody(),
     );
   }
