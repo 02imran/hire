@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/employeer/short_list_search/components/short_list_body.dart';
 
+import '../../constants.dart';
+
 class ShortListSearch extends StatelessWidget {
   const ShortListSearch({ Key? key }) : super(key: key);
 
@@ -21,7 +23,7 @@ class ShortListSearch extends StatelessWidget {
               child: Icon(Icons.menu),
             ),
           ],
-          backgroundColor: Color(0xFF2682AD),
+          backgroundColor: kAppBarColor,
         ),
       body: ShortListBody(),
       

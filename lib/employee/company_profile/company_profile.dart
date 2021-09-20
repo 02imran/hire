@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/employee/company_profile/components/company_profile_body.dart';
 
+import '../../constants.dart';
+
 class CompanyProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,7 @@ class CompanyProfile extends StatelessWidget {
             child: Icon(Icons.menu),
           ),
         ],
-        backgroundColor: Color(0xFF2682AD),
+        backgroundColor: kAppBarColor,
       ),
       body: CompanyProfileBody(),
     );

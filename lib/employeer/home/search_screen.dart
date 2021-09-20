@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/employeer/home/components/Search_body.dart';
 
+import '../../constants.dart';
+
 class SearchScreen extends StatelessWidget {
   
 
@@ -22,7 +24,7 @@ class SearchScreen extends StatelessWidget {
               child: Icon(Icons.menu),
             ),
           ],
-          backgroundColor: Color(0xFF2682AD),
+          backgroundColor: kAppBarColor,
         ),
         body: SearchBody(),
       ),

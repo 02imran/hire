@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 
+import '../../constants.dart';
 import 'components/choose_expertise_body.dart';
 
 class ChooseExpertise extends StatelessWidget {
@@ -22,7 +23,7 @@ class ChooseExpertise extends StatelessWidget {
               child: Icon(Icons.menu),
             ),
           ],
-          backgroundColor: Color(0xFF2682AD),
+          backgroundColor: kAppBarColor,
         ),
       body: ChooseExpertiseBody(),
     );

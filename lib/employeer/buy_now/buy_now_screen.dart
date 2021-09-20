@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
+import 'package:hire_app/constants.dart';
 import 'components/buy_now_body.dart';
 
 class BuyNowScreen extends StatelessWidget {
@@ -21,7 +22,7 @@ class BuyNowScreen extends StatelessWidget {
               child: Icon(Icons.menu),
             ),
           ],
-          backgroundColor: Color(0xFF2682AD),
+          backgroundColor: kAppBarColor,
         ),
       body: BuyNowBody(),
     );

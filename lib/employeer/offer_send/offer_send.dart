@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/employeer/offer_send/components/offer_send_body.dart';
 
+import '../../constants.dart';
+
 class OfferSend extends StatelessWidget {
   
 
@@ -22,7 +24,7 @@ class OfferSend extends StatelessWidget {
             child: Icon(Icons.menu),
           ),
         ],
-        backgroundColor: Color(0xFF2682AD),
+        backgroundColor: kAppBarColor,
       ),
       body: OfferSendBody(),
       

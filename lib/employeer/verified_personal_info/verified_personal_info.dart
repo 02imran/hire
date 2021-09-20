@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/employeer/verified_personal_info/components/verified_personal_body.dart';
 
+import '../../constants.dart';
+
 class VerifiedPersonalInfo extends StatelessWidget {
   const VerifiedPersonalInfo({Key? key}) : super(key: key);
 
@@ -21,7 +23,7 @@ class VerifiedPersonalInfo extends StatelessWidget {
             child: Icon(Icons.menu),
           ),
         ],
-        backgroundColor: Color(0xFF2682AD),
+        backgroundColor: kAppBarColor,
       ),
       body: VerifiedPersonalBody(),
     );

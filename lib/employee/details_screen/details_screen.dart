@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/employee/details_screen/components/details_body.dart';
 
+import '../../constants.dart';
+
 // ignore: must_be_immutable
 class DetailsScreen extends StatelessWidget {
   GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
@@ -21,7 +23,7 @@ class DetailsScreen extends StatelessWidget {
             child: Icon(Icons.menu),
           ),
         ],
-        backgroundColor: Color(0xFF2682AD),
+        backgroundColor: kAppBarColor,
       ),
       body: DetailsBody(),
     );

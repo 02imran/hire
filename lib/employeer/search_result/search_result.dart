@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/employeer/search_result/components/search_result_body.dart';
 
+import '../../constants.dart';
+
 class SearchResult extends StatelessWidget {
   const SearchResult({ Key? key }) : super(key: key);
 
@@ -21,7 +23,7 @@ class SearchResult extends StatelessWidget {
               child: Icon(Icons.menu),
             ),
           ],
-          backgroundColor: Color(0xFF2682AD),
+          backgroundColor: kAppBarColor,
         ),
       body: SearchResultBody(),
       
