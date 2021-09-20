@@ -3,7 +3,7 @@ import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/constants.dart';
 import 'package:hire_app/employeer/home/components/search.dart';
 class BuyNowBody extends StatelessWidget {
-  const BuyNowBody({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
