@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/buyer_job_worker/buyer_search/company_and_factory_profile/company_and_factory_profile.dart';
 import 'package:hire_app/constants.dart';
 
 import 'buyer_header_text.dart';
@@ -31,11 +32,20 @@ class BuyerSearchBody extends StatelessWidget {
               BuyerHeaderText(text1: 'Featured Companies', text2: 'View All'),
               SizedBox(height: 20),
               FeatureList(
-                  img: 'assets/images/building.png', text: 'Dummy text'),
+                img: 'assets/images/building.png',
+                text: 'Dummy text',
+                press: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (_) => CompanyAndFactoryProfile()));
+                },
+              ),
               SizedBox(height: 20),
               BuyerHeaderText(text1: 'Featured Products', text2: 'View All'),
               SizedBox(height: 20),
               FeatureList(
+                press: (){},
                   img: 'assets/images/building.png', text: 'Dummy text'),
             ],
           ),

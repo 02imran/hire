@@ -1,10 +1,14 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class FeatureList extends StatelessWidget {
   const FeatureList({
-    Key? key,@required this.img,@required this.text,
+    Key? key,
+    @required this.img,
+    @required this.text,@required this.press,
   }) : super(key: key);
   final String? img, text;
+  final GestureTapCallback? press;
 
   @override
   Widget build(BuildContext context) {
@@ -14,19 +18,22 @@ class FeatureList extends StatelessWidget {
         children: [
           ...List.generate(
               5,
-              (index) => Card(
-                    elevation: 10,
-                    child: Padding(
-                      padding: EdgeInsets.all(20),
-                      child: Column(
-                        children: [
-                          Image.asset(
-                            img!,
-                            height: 80,
-                            width: 80,
-                          ),
-                          Text(text!)
-                        ],
+              (index) => GestureDetector(
+                    onTap: press,
+                    child: Card(
+                      elevation: 10,
+                      child: Padding(
+                        padding: EdgeInsets.all(20),
+                        child: Column(
+                          children: [
+                            Image.asset(
+                              img!,
+                              height: 80,
+                              width: 80,
+                            ),
+                            Text(text!)
+                          ],
+                        ),
                       ),
                     ),
                   )),
