@@ -28,7 +28,10 @@ class OfferDetailsBody extends StatelessWidget {
           SizedBox(height: 40),
           Center(
             child: CustomeButton(
-                text: 'Candidate List', press: () {}, color: kSuccessColor),
+              text: 'Candidate List',
+              press: () {},
+              color: kSuccessColor,
+            ),
           )
         ],
       ),
