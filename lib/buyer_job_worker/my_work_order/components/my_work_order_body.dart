@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/buyer_job_worker/my_work_order_details/my_work_order_details.dart';
 import 'package:hire_app/constants.dart';
 
 class MyWorkOrderBody extends StatelessWidget {
@@ -39,12 +40,12 @@ class MyWorkOrderList extends StatelessWidget {
         itemCount: items.length,
         itemBuilder: (_, index) => GestureDetector(
           onTap: () {
-            // Navigator.push(
-            //   context,
-            //   MaterialPageRoute(
-            //     builder: (_) => DetailsScreen(),
-            //   ),
-            // );
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => MyWorkOrderDetails(),
+              ),
+            );
           },
           child: Card(
             elevation: 5,
