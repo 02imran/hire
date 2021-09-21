@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/constants.dart';
 import 'package:hire_app/employee/personal_info_screen/components/job_info.dart';
 import 'package:hire_app/employee/personal_info_screen/components/list_view_personal.dart';

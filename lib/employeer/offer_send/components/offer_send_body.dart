@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/employeer/home/components/List_header.dart';
 import 'package:hire_app/employeer/offer_send/components/offer_send_list.dart';
-import 'package:hire_app/employeer/offer_details/offer_details.dart';
+
 
 class OfferSendBody extends StatelessWidget {
   const OfferSendBody({Key? key}) : super(key: key);

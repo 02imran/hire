@@ -3,9 +3,6 @@ import 'package:hire_app/buyer_job_worker/buyer_product_details/buyer_product_de
 import 'package:hire_app/buyer_job_worker/buyer_search/components/buyer_header_text.dart';
 import 'package:hire_app/buyer_job_worker/buyer_search/components/feature_companies.dart';
 import 'package:hire_app/components/company_details.dart';
-import 'package:hire_app/components/user_data.dart';
-import 'package:hire_app/employee/home/components/List_header.dart';
-
 import 'buyer_company_profile.dart';
 import 'buyer_factory_profile.dart';
 

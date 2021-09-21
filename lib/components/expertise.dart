@@ -1,14 +1,14 @@
-
 import 'package:flutter/material.dart';
 
 class FilterSearch extends StatelessWidget {
   const FilterSearch({
     Key? key,
     this.text,
-    this.icon,
+    this.icon, this.press,
   }) : super(key: key);
   final String? text;
   final IconData? icon;
+  final GestureTapCallback? press;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,10 @@ class FilterSearch extends StatelessWidget {
       decoration: BoxDecoration(color: Colors.grey.withOpacity(.3)),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [Text(text!), Icon(icon!)],
+        children: [
+          Text(text!),
+          GestureDetector(onTap: press, child: Icon(icon!))
+        ],
       ),
     );
   }

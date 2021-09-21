@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/buyer_job_worker/buyer_search_result/buyer_search_result.dart';
 import 'package:hire_app/components/expertise.dart';
 import 'package:hire_app/components/search_button.dart';
 
@@ -21,7 +22,12 @@ class BuyerProductSearchBody extends StatelessWidget {
           SizedBox(height: 20),
           FilterSearch(text: 'Garments factory', icon: Icons.arrow_drop_down),
           SizedBox(height: 20),
-          SearchButton()
+          SearchButton(
+            press: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (_) => BuyerSearchResult()));
+            },
+          )
         ],
       ),
     );

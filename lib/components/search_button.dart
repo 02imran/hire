@@ -1,18 +1,17 @@
-
-
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
 
 class SearchButton extends StatelessWidget {
   const SearchButton({
-    Key? key,
+    Key? key, this.press,
   }) : super(key: key);
+  final GestureTapCallback? press;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: press,
       child: Center(
         child: Container(
           height: 48,
@@ -27,8 +26,8 @@ class SearchButton extends StatelessWidget {
               ),
               Text(
                 'SEARCH',
-                style: TextStyle(
-                    color: Colors.white, fontWeight: FontWeight.w500),
+                style:
+                    TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
               ),
             ],
           ),
@@ -37,4 +36,3 @@ class SearchButton extends StatelessWidget {
     );
   }
 }
-
