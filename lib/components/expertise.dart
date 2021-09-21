@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 
-class Expertise extends StatelessWidget {
-  const Expertise({
+class FilterSearch extends StatelessWidget {
+  const FilterSearch({
     Key? key,
     this.text,
     this.icon,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'buyer_job_worker/logo_with_order/logo_with_order.dart';
+import 'package:hire_app/buyer_job_worker/buyer_product_search/buyer_product_search.dart';
 
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LogoWithOrder(),
+      home: BuyerProductSearch(),
     );
   }
 }

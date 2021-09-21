@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'expertise.dart';
-import 'search_button.dart';
+import '../../../components/expertise.dart';
+import '../../../components/search_button.dart';
 
 class ChooseExpertiseBody extends StatelessWidget {
   const ChooseExpertiseBody({Key? key}) : super(key: key);
@@ -16,11 +16,11 @@ class ChooseExpertiseBody extends StatelessWidget {
             SizedBox(height: 30),
             Text('Choose Expertise', style: TextStyle(fontSize: 22)),
             SizedBox(height: 20),
-            Expertise(text: 'Garments factory', icon: Icons.arrow_drop_down),
+            FilterSearch(text: 'Garments factory', icon: Icons.arrow_drop_down),
             SizedBox(height: 20),
-            Expertise(text: 'Garments factory', icon: Icons.arrow_drop_down),
+            FilterSearch(text: 'Garments factory', icon: Icons.arrow_drop_down),
             SizedBox(height: 20),
-            Expertise(text: 'Garments factory', icon: Icons.arrow_drop_down),
+            FilterSearch(text: 'Garments factory', icon: Icons.arrow_drop_down),
             SizedBox(height: 20),
             SearchButton()
           ],
