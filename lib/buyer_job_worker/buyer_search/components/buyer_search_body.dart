@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/buyer_search/company_and_factory_profile/company_and_factory_profile.dart';
-import 'package:hire_app/constants.dart';
-
+import 'package:hire_app/buyer_job_worker/company_and_factory_profile/company_and_factory_profile.dart';
 import 'buyer_header_text.dart';
 import 'buyer_search_prod.dart';
 import 'feature_companies.dart';
