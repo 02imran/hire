@@ -1,17 +1,18 @@
+
+
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/my_work_order_details/components/my_work_order_details_body.dart';
+import 'package:hire_app/buyer_job_worker/buyer_bidder_list/components/buyer_bidder_list_body.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 
 import '../../constants.dart';
 
-class MyWorkOrderDetails extends StatelessWidget {
-  const MyWorkOrderDetails({Key? key}) : super(key: key);
+class BuyerBidderList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
     return Scaffold(
-      key: _drawerKey,
+       key: _drawerKey,
       drawer: DrawerMenu(),
       appBar: AppBar(
         leading: Icon(Icons.arrow_back),
@@ -25,7 +26,8 @@ class MyWorkOrderDetails extends StatelessWidget {
         ],
         backgroundColor: kAppBarColor,
       ),
-      body: MyWorkOrderDetailsBody(),
+      body: BuyerBidderListBody(),
+      
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/buyer_job_worker/buyer_bidder_list/buyer_bidder_list.dart';
 import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/constants.dart';
 
@@ -18,7 +19,7 @@ class MyWorkOrderDetailsBody extends StatelessWidget {
               Text('Demo title', style: TextStyle(fontSize: 20)),
               Image.asset(
                 'assets/images/building.png',
-                height: 300,
+                height: 250,
                 width: double.infinity,
               ),
               SizedBox(height: 20),
@@ -37,7 +38,14 @@ class MyWorkOrderDetailsBody extends StatelessWidget {
               Center(
                 child: CustomeButton(
                   text: 'Bidders List',
-                  press: () {},
+                  press: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => BuyerBidderList(),
+                      ),
+                    );
+                  },
                   color: kPurpleColor,
                   left: 80,
                   right: 80,
