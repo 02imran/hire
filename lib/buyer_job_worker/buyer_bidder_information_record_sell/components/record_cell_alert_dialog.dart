@@ -1,4 +1,3 @@
-import 'package:conditional_questions/conditional_questions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:hire_app/components/custom_button.dart';
@@ -30,7 +29,25 @@ Future<dynamic> recordSellDilogBox(BuildContext context) {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            //TODO: need to implement multiple choice
+            Text('Did the sell happand?'),
+            Row(
+              children: [
+                Radio(
+                    value: 'Yes',
+                    groupValue: 'Yes',
+                    onChanged: (val) {
+                      print(val);
+                    }),
+                Text('Yes'),
+                Radio(
+                    value: 'No',
+                    groupValue: 'Yes',
+                    onChanged: (val) {
+                      print(val);
+                    }),
+                Text('No')
+              ],
+            ),
             SizedBox(height: 20),
             Center(
               child: Column(
@@ -53,6 +70,7 @@ Future<dynamic> recordSellDilogBox(BuildContext context) {
                     },
                   ),
                   Text('Write a review for bidder*'),
+                  SizedBox(height: 10),
                   Container(
                     height: 100,
                     width: double.infinity,
@@ -66,9 +84,13 @@ Future<dynamic> recordSellDilogBox(BuildContext context) {
                       ),
                     ),
                   ),
+                  SizedBox(height: 10),
                   Center(
                     child: CustomeButton(
-                        text: 'Submit', press: () {}, color: kSuccessColor),
+                      text: 'Submit',
+                      press: () {},
+                      color: kSuccessColor,
+                    ),
                   )
                 ],
               ),

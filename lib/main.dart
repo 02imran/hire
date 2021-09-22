@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'buyer_job_worker/buyer_post_new_work_order/buyer_post_new_work_order.dart';
+import 'buyer_job_worker/buyer_recorded_transaction/buyer_recorded_transaction.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BuyerPostNewWorkOrder(),
+      home: BuyerRecordedTransaction(),
     );
   }
 }
