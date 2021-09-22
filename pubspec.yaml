@@ -21,10 +21,12 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  conditional_questions: ^2.0.0
   cupertino_icons: ^1.0.2
   dropdown_search: ^1.0.0
   flutter:
     sdk: flutter
+  flutter_rating_bar: ^4.0.0
   flutter_svg: ^0.22.0
 
 dev_dependencies:
