@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/buyer_search_result/buyer_search_result.dart';
 import 'package:hire_app/components/filter_search.dart';
 import 'package:hire_app/components/search_button.dart';
+import 'package:hire_app/constants.dart';
+import 'package:hire_app/seller_job_worker/seller_search_result/seller_search_result.dart';
 
-class BuyerProductSearchBody extends StatelessWidget {
-  const BuyerProductSearchBody({Key? key}) : super(key: key);
-
+class SellerWorkOrderSearchBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -14,7 +13,7 @@ class BuyerProductSearchBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(height: 30),
-          Text('Choose FilterSearch', style: TextStyle(fontSize: 22)),
+          Text('Work Order Search', style: kTextStyle),
           SizedBox(height: 20),
           FilterSearch(text: 'Garments factory', icon: Icons.arrow_drop_down),
           SizedBox(height: 20),
@@ -25,7 +24,7 @@ class BuyerProductSearchBody extends StatelessWidget {
           SearchButton(
             press: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (_) => BuyerSearchResult()));
+                  MaterialPageRoute(builder: (_) => SellerSearchResult()));
             },
           )
         ],

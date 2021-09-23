@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/buyer_search/buyer_search.dart';
+import 'package:hire_app/buyer_job_worker/buyer_home_screen/buyer_search.dart';
 import 'package:hire_app/constants.dart';
 
 import 'want_work_order.dart';

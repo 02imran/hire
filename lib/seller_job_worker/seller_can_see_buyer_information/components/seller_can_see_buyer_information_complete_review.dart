@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 
-class BidderExperinceCompleteAndReview extends StatelessWidget {
-  BidderExperinceCompleteAndReview({
+class SellerCanSeenBuyerInformaitonCompleteAndReview extends StatelessWidget {
+  SellerCanSeenBuyerInformaitonCompleteAndReview({
     Key? key,
     this.expRev,
     required this.text,

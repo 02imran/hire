@@ -13,7 +13,7 @@ class BuyerAcceptedBidBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(height: 20),
-          Text('Accepted Bids', style: TextStyle(fontSize: 20)),
+          Text('Accepted Bids', style: kTextStyle),
           SizedBox(height: 20),
           Card(
             elevation: 5,

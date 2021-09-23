@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hire_app/buyer_job_worker/buyer_bidder_information/components/alert_dilog_box.dart';
-import 'package:hire_app/buyer_job_worker/buyer_bidder_reviews/buyer_bidder_reviews.dart';
 import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/components/user_data.dart';
 import 'package:hire_app/constants.dart';
 
-import 'bidder_experince_complete_review.dart';
+import 'seller_rfq_requestee_complete_review.dart';
 
-class BuyerBidderInformationBody extends StatelessWidget {
-  const BuyerBidderInformationBody({Key? key}) : super(key: key);
-
+class SellerRFQRequesteeBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -23,7 +19,7 @@ class BuyerBidderInformationBody extends StatelessWidget {
               SizedBox(height: 20),
               Text(
                 'Bidder Information',
-                style: kTextStyle,
+                style: TextStyle(fontSize: 22),
               ),
               SizedBox(height: 30),
               Center(
@@ -82,28 +78,19 @@ class BuyerBidderInformationBody extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomeButton(
-                    text: 'See Reviews',
-                    press: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => BuyerBidderReviews(),
-                        ),
-                      );
-                    },
+                    text: 'Call',
+                    press: () {},
                     color: kAppBarColor,
-                    left: 15,
-                    right: 15,
+                    left: 45,
+                    right: 45,
                   ),
                   SizedBox(width: 20),
                   CustomeButton(
-                    text: 'Accept Bids',
-                    press: () {
-                      areYouSureDilogBox(context);
-                    },
+                    text: 'Email',
+                    press: () {},
                     color: kSuccessColor,
-                    left: 15,
-                    right: 15,
+                    left: 40,
+                    right: 40,
                   )
                 ],
               )

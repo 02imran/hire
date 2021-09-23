@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/buyer_job_worker/my_work_order/my_work_order.dart';
 import 'package:hire_app/components/custom_button.dart';
-import 'package:hire_app/components/expertise.dart';
+import 'package:hire_app/components/filter_search.dart';
 import 'package:hire_app/constants.dart';
 
 import 'add_and_take_photos.dart';

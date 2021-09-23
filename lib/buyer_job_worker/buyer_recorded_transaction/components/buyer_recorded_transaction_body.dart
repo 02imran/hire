@@ -38,23 +38,27 @@ class BuyerRecordedTransactionBody extends StatelessWidget {
                     trailing: Column(
                       children: [
                         Container(
-                          height: 20,
-                          width: 30,
+                          height: 30,
+                          width: 40,
                           child: Row(
                             children: [
                               Icon(
                                 Icons.star,
-                                size: 10,
+                                size: 13,
                                 color: kStarColor,
                               ),
                               Text(
                                 '4.5',
-                                style: TextStyle(fontSize: 10),
+                                style: TextStyle(fontSize: 12),
                               ),
                             ],
                           ),
                         ),
-                        //TODO: data need to implement
+                        SizedBox(height: 10),
+                        Text(
+                          '14/02/20',
+                          style: TextStyle(fontSize: 12),
+                        )
                       ],
                     ),
                     leading: Image.asset('assets/images/building.png'),

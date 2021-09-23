@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'buyer_job_worker/buyer_recorded_transaction/buyer_recorded_transaction.dart';
+import 'package:hire_app/seller_job_worker/seller_work_order_details/seller_work_order_details.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BuyerRecordedTransaction(),
+      home: SellerWorkOrderDetails(),
     );
   }
 }

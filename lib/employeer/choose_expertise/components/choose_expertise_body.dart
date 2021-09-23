@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../components/expertise.dart';
+import '../../../components/filter_search.dart';
 import '../../../components/search_button.dart';
 
 class ChooseExpertiseBody extends StatelessWidget {
