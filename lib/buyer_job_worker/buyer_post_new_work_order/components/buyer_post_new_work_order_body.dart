@@ -3,12 +3,9 @@ import 'package:hire_app/buyer_job_worker/my_work_order/my_work_order.dart';
 import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/components/filter_search.dart';
 import 'package:hire_app/constants.dart';
-
 import 'add_and_take_photos.dart';
 
 class BuyerPostNewWorkOrderBody extends StatelessWidget {
- 
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -18,7 +15,6 @@ class BuyerPostNewWorkOrderBody extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              //TODO: Add dropdown menu
               SizedBox(height: 20),
               FilterSearch(
                 text: 'demo',
@@ -43,7 +39,6 @@ class BuyerPostNewWorkOrderBody extends StatelessWidget {
               SizedBox(height: 30),
               Text('Unit*'),
               SizedBox(height: 20),
-
               FilterSearch(
                 text: 'Select unit',
                 icon: Icons.arrow_drop_down,
@@ -51,11 +46,9 @@ class BuyerPostNewWorkOrderBody extends StatelessWidget {
               ),
               SizedBox(height: 30),
               Text('Quantity Requred*'),
-
               TextFormField(),
               SizedBox(height: 20),
               Text('Order Description*'),
-
               TextFormField(),
               SizedBox(height: 20),
               Text('Add photos* (you can also upload order specific photo)'),

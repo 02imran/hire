@@ -8,18 +8,24 @@ class BuyerSearchResultBody extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 20),
         child: Column(
-          children: [buyerSearchResultList()],
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            SizedBox(height: 20),
+            Text('Search Result', style: kTextStyle),
+            SizedBox(height: 10),
+            buyerSearchResultList(),
+          ],
         ),
       ),
     );
   }
-  Widget buyerSearchResultList(){
+
+  Widget buyerSearchResultList() {
     return ListView.builder(
+      shrinkWrap: true,
       itemCount: 10,
       itemBuilder: (_, index) => GestureDetector(
-        onTap: () {
-      
-        },
+        onTap: () {},
         child: Card(
           elevation: 5,
           child: ListTile(
@@ -45,6 +51,5 @@ class BuyerSearchResultBody extends StatelessWidget {
         ),
       ),
     );
-
   }
 }

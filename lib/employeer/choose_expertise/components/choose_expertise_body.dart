@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/constants.dart';
 import '../../../components/filter_search.dart';
 import '../../../components/search_button.dart';
 
@@ -13,7 +14,7 @@ class ChooseExpertiseBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(height: 30),
-            Text('Choose Expertise', style: TextStyle(fontSize: 22)),
+            Text('Choose Expertise', style: kTextStyle),
             SizedBox(height: 20),
             FilterSearch(text: 'Garments factory', icon: Icons.arrow_drop_down),
             SizedBox(height: 20),

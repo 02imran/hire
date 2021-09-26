@@ -15,7 +15,7 @@ class OfferDetailsBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(height: 20),
-          Text('Offer Details', style: TextStyle(fontSize: 18)),
+          Text('Offer Details', style: kTextStyle),
           SizedBox(height: 20),
           Text('Massage:', style: TextStyle(fontSize: 13)),
           Text(

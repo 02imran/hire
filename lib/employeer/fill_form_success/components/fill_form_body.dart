@@ -21,7 +21,7 @@ class FillFormBody extends StatelessWidget {
             Text(
               'Thanks to taking the time to \n fill the form',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 24),
+              style: kTextStyle,
             ),
             SizedBox(height: 40),
             CustomeButton(text: 'Proceed', press: () {}, color: kButtonColor)

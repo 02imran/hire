@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/constants.dart';
 import 'package:hire_app/employeer/offer_details/offer_details.dart';
 
 
@@ -15,7 +16,7 @@ class OfferSendBody extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(height: 18),
-              Text('Offer Send', style: TextStyle(fontSize: 20)),
+              Text('Offer Send', style: kTextStyle),
               SizedBox(height: 20),
               listOfOfferData(context),
             ],

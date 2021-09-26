@@ -5,8 +5,6 @@ import 'package:hire_app/employee/edit_profile/edit_profile.dart';
 import '../../../constants.dart';
 
 class NidEdit extends StatelessWidget {
-
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -17,14 +15,14 @@ class NidEdit extends StatelessWidget {
         Row(
           children: [
             Container(
-              height: 110,
-              width: 170,
+              height: 90,
+              width: 150,
               decoration: BoxDecoration(color: Colors.grey),
             ),
             Container(
               margin: EdgeInsets.only(left: 10),
-              height: 110,
-              width: 170,
+              height: 90,
+              width: 150,
               decoration: BoxDecoration(color: Colors.grey),
             ),
           ],
@@ -33,8 +31,11 @@ class NidEdit extends StatelessWidget {
         Padding(
           padding: EdgeInsets.only(left: 10),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CustomeButton(
+                left: 15,
+                right: 15,
                 text: 'Edit Profile',
                 press: () {
                   Navigator.push(context,
@@ -44,7 +45,12 @@ class NidEdit extends StatelessWidget {
               ),
               SizedBox(width: 10),
               CustomeButton(
-                  text: 'Skip for now', press: () {}, color: Color(0xFF209F49)),
+                text: 'Skip for now',
+                press: () {},
+                color: Color(0xFF209F49),
+                left: 10,
+                right: 10,
+              ),
             ],
           ),
         ),

@@ -20,7 +20,7 @@ class RequestForQuotationBody extends StatelessWidget {
               SizedBox(height: 30),
               Text(
                 'Request For Quotation',
-                style: TextStyle(fontSize: 20),
+                style: kTextStyle,
               ),
               SizedBox(height: 10),
               Text('Product: Dummy text', style: TextStyle(fontSize: 14)),

@@ -4,7 +4,6 @@ import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/constants.dart';
 
 class MyWorkOrderDetailsBody extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -15,7 +14,7 @@ class MyWorkOrderDetailsBody extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(height: 20),
-              Text('Demo title', style: TextStyle(fontSize: 20)),
+              Text('Demo title', style: kTextStyle),
               Image.asset(
                 'assets/images/building.png',
                 height: 250,

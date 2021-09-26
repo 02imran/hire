@@ -19,7 +19,7 @@ class PersonalInfoBody extends StatelessWidget {
                 padding: EdgeInsets.only(top: 30),
                 child: Text(
                   'Hi! We found following \ninformation about you!',
-                  style: TextStyle(fontSize: 26),
+                  style: kTextStyle,
                 ),
               ),
               SizedBox(height: 20),

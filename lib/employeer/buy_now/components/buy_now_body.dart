@@ -14,7 +14,7 @@ class BuyNowBody extends StatelessWidget {
             SizedBox(height: 30),
             Text(
               'Welcome, Abdul Kadir!',
-              style: TextStyle(fontSize: 22),
+              style: kTextStyle,
             ),
             SizedBox(height: 20),
             Text(

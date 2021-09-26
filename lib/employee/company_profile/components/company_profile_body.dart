@@ -20,7 +20,7 @@ class CompanyProfileBody extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               'Company Profile:',
-              style: TextStyle(fontSize: 20),
+              style: kTextStyle,
             ),
             SizedBox(height: 20),
             UserData(text1: 'Company Established in', text2: 'Md Basion'),

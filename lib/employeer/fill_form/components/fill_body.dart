@@ -16,7 +16,7 @@ class FillBody extends StatelessWidget {
             children: [
               Text(
                 'To proceed with your application to to become an employer, please fill out the following information',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+                style: kTextStyle,
               ),
               textFormPersonal(name: 'Company Name'),
               textFormPersonal(name: 'Company Telephone Number'),

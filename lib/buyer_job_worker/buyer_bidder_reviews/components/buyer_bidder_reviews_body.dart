@@ -2,31 +2,31 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/constants.dart';
 
 class BuyerBidderReviewsBody extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
-          child: Container(
-            height: MediaQuery.of(context).size.height,
-            child: Column(
-              children: [
-                ...List.generate(2, (index) => buyerNameRatingAndDesc()),
-              ],
-            ),
+          child: Column(
+            children: [
+              ...List.generate(
+                2,
+                (index) => buyerNameRatingAndDesc(),
+              ),
+            ],
           ),
         ),
       ),
     );
   }
-  Widget buyerNameRatingAndDesc(){
+
+  Widget buyerNameRatingAndDesc() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(height: 20),
-        Text('Reviews', style: TextStyle(fontSize: 20)),
+        Text('Reviews', style: kTextStyle),
         SizedBox(height: 20),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -58,8 +58,5 @@ class BuyerBidderReviewsBody extends StatelessWidget {
         )
       ],
     );
-  
   }
 }
-
-

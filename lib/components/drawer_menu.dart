@@ -4,9 +4,7 @@ import 'package:flutter_svg/svg.dart';
 import '../constants.dart';
 
 class DrawerMenu extends StatelessWidget {
-  const DrawerMenu({
-    Key? key,
-  }) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

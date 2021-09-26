@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/text_form_personal.dart';
 
 class EditPersonalInfo extends StatelessWidget {
+ 
 
 
   @override

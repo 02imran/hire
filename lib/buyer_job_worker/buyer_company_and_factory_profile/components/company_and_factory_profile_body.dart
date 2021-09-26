@@ -3,6 +3,7 @@ import 'package:hire_app/buyer_job_worker/buyer_product_details/buyer_product_de
 import 'package:hire_app/buyer_job_worker/buyer_home_screen/components/buyer_header_text.dart';
 import 'package:hire_app/buyer_job_worker/buyer_home_screen/components/feature_companies.dart';
 import 'package:hire_app/components/company_details.dart';
+import 'package:hire_app/constants.dart';
 import 'buyer_company_profile.dart';
 import 'buyer_factory_profile.dart';
 
@@ -21,7 +22,7 @@ class CompanyAndFactoryProfileBody extends StatelessWidget {
               SizedBox(height: 20),
               Text(
                 'Company & Factory profile',
-                style: TextStyle(fontSize: 24),
+                style: kTextStyle,
               ),
               CompanyDetails(),
               SizedBox(height: 20),

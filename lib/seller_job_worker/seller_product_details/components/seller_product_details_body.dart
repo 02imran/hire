@@ -18,7 +18,7 @@ class SellerProductDetailsBody extends StatelessWidget {
               SizedBox(height: 20),
               Text(
                 'Demo product name',
-                style: TextStyle(fontSize: 20),
+                style: kTextStyle,
               ),
               SizedBox(height: 20),
               SellerProductDetailsSliderImage(selectedIndex: selectedIndex),

@@ -18,7 +18,7 @@ class SellerCompanyAndFactoryProfileBody extends StatelessWidget {
               SizedBox(height: 20),
               Text(
                 'Company & Factory profile',
-                style: TextStyle(fontSize: 24),
+                style: kTextStyle,
               ),
               CompanyDetails(),
               SizedBox(height: 20),

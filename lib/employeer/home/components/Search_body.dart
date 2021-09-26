@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/constants.dart';
 import 'package:hire_app/employee/details_screen/details_screen.dart';
 import 'List_header.dart';
 import 'search.dart';
@@ -17,7 +18,7 @@ class SearchBody extends StatelessWidget {
             SizedBox(height: 30),
             Text(
               'Welcome, Abdul Kadir!',
-              style: TextStyle(fontSize: 22),
+              style: kTextStyle,
             ),
             SizedBox(height: 20),
             Text(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/constants.dart';
 import 'short_listed_card.dart';
 
 class ShortedListBody extends StatelessWidget {
@@ -11,7 +12,7 @@ class ShortedListBody extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(height: 20),
-          Text('Shortlisted', style: TextStyle(fontSize: 20)),
+          Text('Shortlisted', style: kTextStyle),
           SizedBox(height: 70),
           ShortedlistedCard(
             text1: 'Supervisor',

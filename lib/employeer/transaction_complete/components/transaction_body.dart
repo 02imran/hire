@@ -21,7 +21,7 @@ class TransactionBody extends StatelessWidget {
             Text(
               'Thank you!\nYour transaction has been \nsuccessfully complete',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 24),
+              style: kTextStyle,
             ),
             SizedBox(height: 40),
             CustomeButton(text: 'Proceed', press: () {}, color: kButtonColor)

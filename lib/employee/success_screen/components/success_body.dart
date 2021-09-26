@@ -23,7 +23,7 @@ class SuccessBody extends StatelessWidget {
             Text(
               'Thanks! Your phone number \n has been verified',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 24),
+              style: kTextStyle,
             ),
   
             TweenAnimationBuilder(

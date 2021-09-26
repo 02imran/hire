@@ -20,7 +20,7 @@ class ShortListBody extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('Search Result', style: TextStyle(fontSize: 20)),
+                  Text('Search Result', style: kTextStyle),
                   Row(
                     children: [
                       ListShort(),

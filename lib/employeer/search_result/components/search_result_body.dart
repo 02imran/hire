@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/components/search_list_view.dart';
+import 'package:hire_app/constants.dart';
 
 class SearchResultBody extends StatelessWidget {
   @override
@@ -15,7 +16,7 @@ class SearchResultBody extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('Search Result', style: TextStyle(fontSize: 20)),
+                  Text('Search Result', style: kTextStyle),
                   Icon(Icons.rounded_corner)
                 ],
               ),

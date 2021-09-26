@@ -14,7 +14,7 @@ class MyWorkOrderBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(height: 20),
-            Text('My work orders', style: TextStyle(fontSize: 20)),
+            Text('My work orders', style: kTextStyle),
             SizedBox(height: 20),
             myWorkOrderList(context)
           ],

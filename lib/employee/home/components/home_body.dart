@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/components/list_view_prod.dart';
+import 'package:hire_app/constants.dart';
 import 'List_header.dart';
 import 'search_bar.dart';
 
@@ -17,7 +18,7 @@ class HomeBody extends StatelessWidget {
             SizedBox(height: 30),
             Text(
               'Welcome, Abdul Kadir!',
-              style: TextStyle(fontSize: 22),
+              style: kTextStyle,
             ),
             SizedBox(height: 20),
             Text(

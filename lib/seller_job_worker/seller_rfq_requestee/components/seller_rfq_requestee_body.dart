@@ -19,7 +19,7 @@ class SellerRFQRequesteeBody extends StatelessWidget {
               SizedBox(height: 20),
               Text(
                 'Bidder Information',
-                style: TextStyle(fontSize: 22),
+                style: kTextStyle,
               ),
               SizedBox(height: 30),
               Center(

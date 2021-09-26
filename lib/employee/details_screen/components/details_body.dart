@@ -18,7 +18,7 @@ class DetailsBody extends StatelessWidget {
           SizedBox(height: 20),
           Text(
             'Massage:',
-            style: TextStyle(fontSize: 18),
+            style: kTextStyle,
           ),
           SizedBox(height: 20),
           Text(

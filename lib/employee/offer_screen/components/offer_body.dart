@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/components/list_view_prod.dart';
+import 'package:hire_app/constants.dart';
 
 class OfferBody extends StatelessWidget {
 
@@ -15,7 +16,7 @@ class OfferBody extends StatelessWidget {
               SizedBox(height: 30),
               Text(
                 'Your offer:',
-                style: TextStyle(fontSize: 20),
+                style: kTextStyle,
               ),
               SizedBox(height: 20),
               ListViewProd(),

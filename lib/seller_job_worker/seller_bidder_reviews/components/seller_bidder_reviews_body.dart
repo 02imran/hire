@@ -8,13 +8,10 @@ class SellerBidderReviewsBody extends StatelessWidget {
       child: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
-          child: Container(
-            height: MediaQuery.of(context).size.height,
-            child: Column(
-              children: [
-                ...List.generate(2, (index) => sellerNameRatingAndDesc()),
-              ],
-            ),
+          child: Column(
+            children: [
+              ...List.generate(2, (index) => sellerNameRatingAndDesc()),
+            ],
           ),
         ),
       ),
@@ -25,7 +22,7 @@ class SellerBidderReviewsBody extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(height: 20),
-        Text('Reviews', style: TextStyle(fontSize: 20)),
+        Text('Reviews', style: kTextStyle),
         SizedBox(height: 20),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

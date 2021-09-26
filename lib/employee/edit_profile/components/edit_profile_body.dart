@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:hire_app/constants.dart';
 import 'edit_job.dart';
 import 'edit_personal_info.dart';
 import 'picture_upload.dart';
 
 class EditProfileBody extends StatelessWidget {
- 
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -18,7 +17,7 @@ class EditProfileBody extends StatelessWidget {
               SizedBox(height: 30),
               Text(
                 'To proceed with your application please\nfill out the following information',
-                style: TextStyle(fontSize: 18),
+                style: kTextStyle,
               ),
               EditPersonalInfo(),
               PictureUpload(text: 'এনআইডি এর সামনের দিক/NID front side'),
@@ -30,5 +29,4 @@ class EditProfileBody extends StatelessWidget {
       ),
     );
   }
-
 }
