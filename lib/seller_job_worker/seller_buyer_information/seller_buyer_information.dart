@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/buyer_accepted_bids/components/buyer_accepted_bids_body.dart';
 import 'package:hire_app/components/drawer_menu.dart';
-
 import '../../constants.dart';
+import 'components/seller_buyer_information_body.dart';
 
-class BuyerAcceptedBid extends StatelessWidget {
+class SellerBuyerInformation extends StatelessWidget {
+  
+
   @override
   Widget build(BuildContext context) {
-     GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
+    GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
     return Scaffold(
       key: _drawerKey,
       drawer: DrawerMenu(),
@@ -23,7 +24,7 @@ class BuyerAcceptedBid extends StatelessWidget {
         ],
         backgroundColor: kAppBarColor,
       ),
-      body: BuyerAcceptedBidBody(),
+      body: SellerBuyerInformationBody(),
     );
   }
 }
