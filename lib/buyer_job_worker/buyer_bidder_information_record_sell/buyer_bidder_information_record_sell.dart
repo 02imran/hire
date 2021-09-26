@@ -5,7 +5,7 @@ import '../../constants.dart';
 import 'components/buyer_bidder_information_record_sell_body.dart';
 
 class BuyerBidderInformationRecaodSell extends StatelessWidget {
-  const BuyerBidderInformationRecaodSell({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

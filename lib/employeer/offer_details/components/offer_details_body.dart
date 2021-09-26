@@ -5,7 +5,7 @@ import 'package:hire_app/constants.dart';
 import 'details_table.dart';
 
 class OfferDetailsBody extends StatelessWidget {
-  const OfferDetailsBody({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

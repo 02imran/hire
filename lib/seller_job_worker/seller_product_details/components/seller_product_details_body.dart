@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/components/user_data.dart';
 import 'package:hire_app/constants.dart';
-import 'package:hire_app/seller_job_worker/seller_request_for_quotation/seller_request_for_quotation.dart';
 import 'seller_product_details_slider_image.dart';
 
 class SellerProductDetailsBody extends StatelessWidget {

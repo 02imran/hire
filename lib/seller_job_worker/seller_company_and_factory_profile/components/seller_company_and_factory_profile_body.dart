@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/buyer_home_screen/components/buyer_header_text.dart';
-import 'package:hire_app/buyer_job_worker/buyer_home_screen/components/feature_companies.dart';
 import 'package:hire_app/components/company_details.dart';
 import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/constants.dart';
-import 'package:hire_app/seller_job_worker/seller_product_details/seller_product_details.dart';
 import 'seller_buyer_company_profile.dart';
 import 'seller_buyer_factory_profile.dart';
 

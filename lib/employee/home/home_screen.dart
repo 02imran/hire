@@ -4,12 +4,13 @@ import 'package:hire_app/employee/home/components/home_body.dart';
 
 import '../../constants.dart';
 
-// ignore: must_be_immutable
+
 class HomeScreen extends StatelessWidget {
-  GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
+  GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
+
     return SafeArea(
       child: Scaffold(
         key: _drawerKey,

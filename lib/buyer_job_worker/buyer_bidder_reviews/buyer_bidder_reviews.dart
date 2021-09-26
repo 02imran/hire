@@ -4,8 +4,7 @@ import 'package:hire_app/components/drawer_menu.dart';
 
 import '../../constants.dart';
 
-class BuyerBidderReviews extends StatelessWidget {
-  const BuyerBidderReviews({ Key? key }) : super(key: key);
+class BuyerBidderReviews extends StatelessWidget { 
 
   @override
   Widget build(BuildContext context) {

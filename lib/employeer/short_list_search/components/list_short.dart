@@ -4,9 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../constants.dart';
 
 class ListShort extends StatelessWidget {
-  const ListShort({
-    Key? key,
-  }) : super(key: key);
+
   
 
   @override

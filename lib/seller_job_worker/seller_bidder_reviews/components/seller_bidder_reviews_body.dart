@@ -12,7 +12,7 @@ class SellerBidderReviewsBody extends StatelessWidget {
             height: MediaQuery.of(context).size.height,
             child: Column(
               children: [
-                ...List.generate(2, (index) => SellerNameRatingAndDesc()),
+                ...List.generate(2, (index) => sellerNameRatingAndDesc()),
               ],
             ),
           ),
@@ -20,11 +20,7 @@ class SellerBidderReviewsBody extends StatelessWidget {
       ),
     );
   }
-}
-
-class SellerNameRatingAndDesc extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
+  Widget sellerNameRatingAndDesc(){
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -61,5 +57,6 @@ class SellerNameRatingAndDesc extends StatelessWidget {
         )
       ],
     );
+  
   }
 }

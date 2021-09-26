@@ -7,7 +7,7 @@ import 'package:hire_app/constants.dart';
 import 'add_and_take_photos.dart';
 
 class BuyerPostNewWorkOrderBody extends StatelessWidget {
-  const BuyerPostNewWorkOrderBody({Key? key}) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {

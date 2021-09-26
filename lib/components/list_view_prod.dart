@@ -11,30 +11,28 @@ class ListViewProd extends StatelessWidget {
 
     ///This file return listview iteam
 
-    return Container(
-      height: MediaQuery.of(context).size.height,
-      child: ListView.builder(
-        itemCount: items.length,
-        itemBuilder: (_, index) => GestureDetector(
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (_) => DetailsScreen(),
-              ),
-            );
-          },
-          child: Card(
-            elevation: 5,
-            child: ListTile(
-              title: Text(
-                items[index],
-              ),
-              subtitle: Text(
-                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-              ),
-              leading: Image.asset('assets/images/building.png'),
+    return ListView.builder(
+      shrinkWrap: true,
+      itemCount: items.length,
+      itemBuilder: (_, index) => GestureDetector(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => DetailsScreen(),
             ),
+          );
+        },
+        child: Card(
+          elevation: 5,
+          child: ListTile(
+            title: Text(
+              items[index],
+            ),
+            subtitle: Text(
+              'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+            ),
+            leading: Image.asset('assets/images/building.png'),
           ),
         ),
       ),

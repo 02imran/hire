@@ -4,7 +4,6 @@ import 'package:hire_app/components/filter_search.dart';
 import 'package:hire_app/components/search_button.dart';
 
 class BuyerProductSearchBody extends StatelessWidget {
-  const BuyerProductSearchBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

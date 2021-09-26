@@ -9,7 +9,7 @@ import 'package:hire_app/constants.dart';
 import 'bidder_experince_complete_review.dart';
 
 class BuyerBidderInformationBody extends StatelessWidget {
-  const BuyerBidderInformationBody({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

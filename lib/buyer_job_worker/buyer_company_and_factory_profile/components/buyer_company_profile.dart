@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/user_data.dart';
 
 class BuyerCompanyProfile extends StatelessWidget {
-  const BuyerCompanyProfile({
-    Key? key,
-  }) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

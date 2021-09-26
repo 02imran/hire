@@ -6,8 +6,6 @@ import 'package:hire_app/employeer/offer_send/components/offer_send_body.dart';
 import '../../constants.dart';
 
 class OfferSend extends StatelessWidget {
-  
-
   @override
   Widget build(BuildContext context) {
     GlobalKey<ScaffoldState> _drawerKey = GlobalKey();

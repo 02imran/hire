@@ -5,7 +5,7 @@ import 'package:hire_app/employeer/short_list_search/components/short_list_body.
 import '../../constants.dart';
 
 class ShortListSearch extends StatelessWidget {
-  const ShortListSearch({ Key? key }) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {

@@ -6,9 +6,7 @@ import 'package:hire_app/components/custom_button.dart';
 import '../../../constants.dart';
 
 class EstimateButton extends StatelessWidget {
-  const EstimateButton({
-    Key? key,
-  }) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

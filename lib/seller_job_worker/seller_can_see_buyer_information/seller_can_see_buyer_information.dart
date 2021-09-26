@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/buyer_bidder_information/components/buyer_bidder_information_body.dart';
 import 'package:hire_app/components/drawer_menu.dart';
-
 import '../../constants.dart';
 import 'components/seller_can_see_buyer_information_body.dart';
 

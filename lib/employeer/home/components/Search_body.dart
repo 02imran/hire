@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/employeer/home/components/list_view_data.dart';
-
+import 'package:hire_app/employee/details_screen/details_screen.dart';
 import 'List_header.dart';
 import 'search.dart';
 
@@ -30,9 +29,46 @@ class SearchBody extends StatelessWidget {
             SizedBox(height: 80),
             ListHeader(),
             SizedBox(height: 20),
-            ListViewData(),
+            listViewData(context),
             SizedBox(height: 20)
           ],
+        ),
+      ),
+    );
+  }
+
+  ListView listViewData(BuildContext context) {
+    return ListView.builder(
+      shrinkWrap: true,
+      itemCount: 10,
+      itemBuilder: (_, index) => GestureDetector(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => DetailsScreen(),
+            ),
+          );
+        },
+        child: Card(
+          elevation: 5,
+          child: ListTile(
+            title: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'Name',
+                ),
+                Text(
+                  '18 decemmber 2020',
+                  style: TextStyle(fontSize: 12),
+                ),
+              ],
+            ),
+            subtitle: Text(
+              'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+            ),
+          ),
         ),
       ),
     );

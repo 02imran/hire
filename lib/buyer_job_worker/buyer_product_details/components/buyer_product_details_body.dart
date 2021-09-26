@@ -6,7 +6,7 @@ import 'package:hire_app/constants.dart';
 import 'product_details_slider_image.dart';
 
 class BuyerProductDetailsBody extends StatelessWidget {
-  const BuyerProductDetailsBody({Key? key}) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {

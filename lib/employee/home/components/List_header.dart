@@ -4,9 +4,7 @@ import 'package:hire_app/employee/offer_screen/offer_screen.dart';
 import '../../../constants.dart';
 
 class ListHeader extends StatelessWidget {
-  const ListHeader({
-    Key? key,
-  }) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

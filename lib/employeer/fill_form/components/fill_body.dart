@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/components/custom_button.dart';
+import 'package:hire_app/components/text_form_personal.dart';
 import 'package:hire_app/constants.dart';
 import 'package:hire_app/employee/edit_profile/components/picture_upload.dart';
-import 'package:hire_app/employee/edit_profile/components/text_form_personal.dart';
 
 class FillBody extends StatelessWidget {
   @override

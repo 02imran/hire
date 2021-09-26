@@ -3,7 +3,6 @@ import '../../../components/filter_search.dart';
 import '../../../components/search_button.dart';
 
 class ChooseExpertiseBody extends StatelessWidget {
-  const ChooseExpertiseBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

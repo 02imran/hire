@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/components/custom_button.dart';
+import 'package:hire_app/components/text_form_personal.dart';
 import 'package:hire_app/employee/home/home_screen.dart';
-
 import '../../../constants.dart';
 import 'picture_upload.dart';
-import 'text_form_personal.dart';
 
 class EditJob extends StatelessWidget {
-  const EditJob({
-    Key? key,
-  }) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -64,4 +61,5 @@ class EditJob extends StatelessWidget {
       ],
     );
   }
+
 }

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hire_app/buyer_job_worker/buyer_accepted_bids/components/buyer_accepted_bids_body.dart';
 import 'package:hire_app/components/drawer_menu.dart';
-
 import '../../constants.dart';
 
 class BuyerAcceptedBid extends StatelessWidget {

@@ -7,7 +7,7 @@ import 'buyer_company_profile.dart';
 import 'buyer_factory_profile.dart';
 
 class CompanyAndFactoryProfileBody extends StatelessWidget {
-  const CompanyAndFactoryProfileBody({Key? key}) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

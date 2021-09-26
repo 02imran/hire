@@ -6,7 +6,6 @@ import 'estimate.dart';
 import 'estimate_button.dart';
 
 class RequestForQuotationBody extends StatelessWidget {
-  const RequestForQuotationBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

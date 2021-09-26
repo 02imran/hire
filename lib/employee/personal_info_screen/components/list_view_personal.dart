@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/user_data.dart';
 
 class ListViewPersonal extends StatelessWidget {
-  const ListViewPersonal({Key? key}) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

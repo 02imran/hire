@@ -5,7 +5,7 @@ import 'package:hire_app/employeer/search_result/components/search_result_body.d
 import '../../constants.dart';
 
 class SearchResult extends StatelessWidget {
-  const SearchResult({ Key? key }) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {

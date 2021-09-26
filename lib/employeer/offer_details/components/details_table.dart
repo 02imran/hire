@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DetailsTable extends StatelessWidget {
-  const DetailsTable({
-    Key? key,
-  }) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

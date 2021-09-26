@@ -5,7 +5,7 @@ import 'package:hire_app/employee/edit_profile/edit_profile.dart';
 import '../../../constants.dart';
 
 class NidEdit extends StatelessWidget {
-  const NidEdit({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

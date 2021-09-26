@@ -5,7 +5,7 @@ import 'package:hire_app/components/drawer_menu.dart';
 import '../../constants.dart';
 
 class BuyerPostNewWorkOrder extends StatelessWidget {
-  const BuyerPostNewWorkOrder({Key? key}) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {

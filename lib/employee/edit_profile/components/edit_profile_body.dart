@@ -4,7 +4,7 @@ import 'edit_personal_info.dart';
 import 'picture_upload.dart';
 
 class EditProfileBody extends StatelessWidget {
-  const EditProfileBody({Key? key}) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {

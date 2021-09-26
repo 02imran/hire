@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/constants.dart';
 
 class BuyerBidderReviewsBody extends StatelessWidget {
-  const BuyerBidderReviewsBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +13,7 @@ class BuyerBidderReviewsBody extends StatelessWidget {
             height: MediaQuery.of(context).size.height,
             child: Column(
               children: [
-                ...List.generate(2, (index) => BuyerNameRatingAndDesc()),
+                ...List.generate(2, (index) => buyerNameRatingAndDesc()),
               ],
             ),
           ),
@@ -22,15 +21,7 @@ class BuyerBidderReviewsBody extends StatelessWidget {
       ),
     );
   }
-}
-
-class BuyerNameRatingAndDesc extends StatelessWidget {
-  const BuyerNameRatingAndDesc({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
+  Widget buyerNameRatingAndDesc(){
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -67,5 +58,8 @@ class BuyerNameRatingAndDesc extends StatelessWidget {
         )
       ],
     );
+  
   }
 }
+
+

@@ -4,7 +4,6 @@ import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/constants.dart';
 
 class MyWorkOrderDetailsBody extends StatelessWidget {
-  const MyWorkOrderDetailsBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

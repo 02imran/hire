@@ -5,7 +5,7 @@ import 'package:hire_app/employeer/verified_personal_info/components/verified_pe
 import '../../constants.dart';
 
 class VerifiedPersonalInfo extends StatelessWidget {
-  const VerifiedPersonalInfo({Key? key}) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

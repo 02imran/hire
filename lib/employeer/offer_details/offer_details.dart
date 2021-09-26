@@ -5,7 +5,6 @@ import 'package:hire_app/employeer/offer_details/components/offer_details_body.d
 import '../../constants.dart';
 
 class OfferDetails extends StatelessWidget {
-  const OfferDetails({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

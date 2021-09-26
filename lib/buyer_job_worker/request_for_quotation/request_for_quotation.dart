@@ -4,7 +4,7 @@ import 'package:hire_app/buyer_job_worker/request_for_quotation/components/reque
 import '../../constants.dart';
 
 class RequestForQuotation extends StatelessWidget {
-  const RequestForQuotation({Key? key}) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

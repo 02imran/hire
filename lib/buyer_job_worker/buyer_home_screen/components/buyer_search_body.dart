@@ -5,7 +5,7 @@ import 'buyer_search_prod.dart';
 import 'feature_companies.dart';
 
 class BuyerSearchBody extends StatelessWidget {
-  const BuyerSearchBody({Key? key}) : super(key: key);
+ 
 
   @override
   Widget build(BuildContext context) {

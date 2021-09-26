@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/employee/verify_screen/components/verify_body.dart';
 
 class VerifyScreen extends StatelessWidget {
-  const VerifyScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

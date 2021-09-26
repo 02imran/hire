@@ -9,7 +9,7 @@ import 'package:hire_app/constants.dart';
 import 'record_cell_alert_dialog.dart';
 
 class BuyerBidderInformationRecordSellBody extends StatelessWidget {
-  const BuyerBidderInformationRecordSellBody({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

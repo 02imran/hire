@@ -4,7 +4,6 @@ import 'package:hire_app/constants.dart';
 import 'package:hire_app/employee/success_screen/success_screen.dart';
 
 class OtpBody extends StatelessWidget {
-  const OtpBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

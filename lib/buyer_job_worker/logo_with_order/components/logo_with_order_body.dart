@@ -5,7 +5,6 @@ import 'package:hire_app/constants.dart';
 import 'want_work_order.dart';
 
 class LogoWithOrderBody extends StatelessWidget {
-  const LogoWithOrderBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

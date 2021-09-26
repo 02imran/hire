@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/list_view_prod.dart';
 
 class OfferBody extends StatelessWidget {
-  const OfferBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

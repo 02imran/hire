@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hire_app/components/custom_button.dart';
 import 'package:hire_app/constants.dart';
 import 'package:hire_app/employeer/home/components/search.dart';
+
 class BuyNowBody extends StatelessWidget {
-
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(

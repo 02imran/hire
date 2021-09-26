@@ -6,10 +6,6 @@ import 'package:hire_app/components/custom_button.dart';
 import '../../../constants.dart';
 
 class AddAndTakePhoto extends StatelessWidget {
-  const AddAndTakePhoto({
-    Key? key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Column(

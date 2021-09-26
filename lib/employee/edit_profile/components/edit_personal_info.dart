@@ -1,13 +1,10 @@
 
 
 import 'package:flutter/material.dart';
-
-import 'text_form_personal.dart';
+import 'package:hire_app/components/text_form_personal.dart';
 
 class EditPersonalInfo extends StatelessWidget {
-  const EditPersonalInfo({
-    Key? key,
-  }) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -43,4 +40,5 @@ class EditPersonalInfo extends StatelessWidget {
       ],
     );
   }
+  
 }

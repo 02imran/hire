@@ -4,8 +4,7 @@ import 'package:hire_app/constants.dart';
 import 'components/buy_now_body.dart';
 
 class BuyNowScreen extends StatelessWidget {
-  const BuyNowScreen({Key? key}) : super(key: key);
-
+  
   @override
   Widget build(BuildContext context) {
     GlobalKey<ScaffoldState> _drawerKey = GlobalKey();

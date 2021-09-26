@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/employeer/offer_send/components/offer_send_list.dart';
+import 'package:hire_app/employeer/offer_details/offer_details.dart';
 
 
 class OfferSendBody extends StatelessWidget {
-  const OfferSendBody({Key? key}) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {
@@ -17,11 +17,48 @@ class OfferSendBody extends StatelessWidget {
               SizedBox(height: 18),
               Text('Offer Send', style: TextStyle(fontSize: 20)),
               SizedBox(height: 20),
-              ListOfOfferData(),
+              listOfOfferData(context),
             ],
           ),
         ),
       ),
     );
+  }
+  Widget listOfOfferData(BuildContext context){
+    return ListView.builder(
+      shrinkWrap: true,
+      itemCount: 10,
+      itemBuilder: (_, index) => GestureDetector(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => OfferDetails(),
+            ),
+          );
+        },
+        child: Card(
+          elevation: 5,
+          child: ListTile(
+            title: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'Name',
+                ),
+                Text(
+                  '18 decemmber 2020',
+                  style: TextStyle(fontSize: 12),
+                ),
+              ],
+            ),
+            subtitle: Text(
+              'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+            ),
+          ),
+        ),
+      ),
+    );
+  
   }
 }

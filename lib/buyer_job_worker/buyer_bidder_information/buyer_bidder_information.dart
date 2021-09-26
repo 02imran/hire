@@ -5,7 +5,6 @@ import 'package:hire_app/components/drawer_menu.dart';
 import '../../constants.dart';
 
 class BuyerBidderInformation extends StatelessWidget {
-  const BuyerBidderInformation({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

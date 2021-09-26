@@ -7,7 +7,7 @@ import '../../constants.dart';
 import 'components/shorted_list_body.dart';
 
 class ShortedList extends StatelessWidget {
-  const ShortedList({ Key? key }) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {

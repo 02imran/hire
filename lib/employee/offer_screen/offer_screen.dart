@@ -6,10 +6,11 @@ import '../../constants.dart';
 
 // ignore: must_be_immutable
 class OfferScreen extends StatelessWidget {
-  GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
+  
 
   @override
   Widget build(BuildContext context) {
+    GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
     return Scaffold(
       key: _drawerKey,
       drawer: DrawerMenu(),

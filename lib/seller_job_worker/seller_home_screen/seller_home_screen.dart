@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hire_app/buyer_job_worker/buyer_home_screen/components/buyer_search_body.dart';
 import 'package:hire_app/components/drawer_menu.dart';
 import 'package:hire_app/constants.dart';
-
 import 'components/seller_search_body.dart';
 
 class SellerHomeScreen extends StatelessWidget {
